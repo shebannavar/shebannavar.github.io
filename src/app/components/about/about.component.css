@@ -1,0 +1,88 @@
+#about {
+    margin: 50px 70px;
+}
+
+.jumbotron {
+    background-color: var(--grey);
+    color: white;
+    padding: 4rem 3rem;
+}
+
+.sub-text {
+    font-size: 1rem;
+    color: #3a3a3a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 205px;
+}
+
+.btn {
+    color: black;
+    background-color: white;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: white;
+    border: none;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.lead {
+    font-size: 1.3rem;
+}
+
+.trail {
+    text-align: justify;
+    font-size: 1.20rem;
+}
+
+#ed-history-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+#ed-history-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+#ed-history-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+#ed-history-4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 780px) {
+    #about {
+        margin: 0;
+    }
+    #ed-history-1 {
+        flex-direction: column;
+    }
+    #ed-history-2 {
+        flex-direction: column;
+    }
+    #ed-history-3 {
+        flex-direction: column;
+    }
+    #ed-history-4 {
+        flex-direction: column;
+    }
+}

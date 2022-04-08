@@ -1,0 +1,49 @@
+#outer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#inner1 {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inner2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    background: var(--grey);
+}
+
+div#name {
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+div#obj {
+    font-size: 20px;
+    margin: 10px 58px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 650px) {
+    #outer {
+        flex-direction: column;
+        width: fit-content;
+    }
+    #inner1 {
+        width: auto;
+    }
+    #inner2 {
+        width: auto;
+    }
+}

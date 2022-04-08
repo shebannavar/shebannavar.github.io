@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    padding: 30px;
+}
+
+
+/* HEADING */
+
+.heading {
+    text-align: center;
+}
+
+.heading__title {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.heading__credits {
+    margin: 10px 0px;
+    color: #888888;
+    font-size: 25px;
+    transition: all 0.5s;
+    letter-spacing: 2px;
+}
+
+.heading__link {
+    text-decoration: none;
+}
+
+.heading__credits .heading__link {
+    color: inherit;
+}
+
+
+/* CARDS */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1600px) {
+    .cards {
+        justify-content: center;
+    }
+}
