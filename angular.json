@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pp-angular-assignment": {
+    "shebannavar": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/pp-angular-assignment",
+            "outputPath": "dist/shebannavar",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "pp-angular-assignment:build:production"
+              "browserTarget": "shebannavar:build:production"
             },
             "development": {
-              "browserTarget": "pp-angular-assignment:build:development"
+              "browserTarget": "shebannavar:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pp-angular-assignment:build"
+            "browserTarget": "shebannavar:build"
           }
         },
         "test": {
@@ -99,9 +99,12 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
   },
-  "defaultProject": "pp-angular-assignment"
+  "defaultProject": "shebannavar"
 }
