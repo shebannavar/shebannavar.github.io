@@ -13,7 +13,8 @@ export class ProjectsComponent implements OnInit {
       desc: 'A Fully Responsive Restaurant Website with Modern UI and UX in ReactJS',
       front: 'ReactJS',
       tech: '',
-      href: 'https://modern-restaurant-website.vercel.app/'
+      href:'https://github.com/shebannavar/modern-restaurant-website',
+      demohref: 'https://modern-restaurant-website.vercel.app/'
     },
     {
       cardNo: 'card-2',

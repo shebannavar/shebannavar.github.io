@@ -14,6 +14,7 @@ export class ProjectComponent implements OnInit {
   @Input() public back: any;
   @Input() public tech: any;
   @Input() public href: any;
+  @Input() public demohref: any;
 
 
   constructor() { }
