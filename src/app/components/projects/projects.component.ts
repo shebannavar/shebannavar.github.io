@@ -9,12 +9,11 @@ export class ProjectsComponent implements OnInit {
   projects = [
     {
       cardNo: 'card-1',
-      title: 'React Meals',
-      desc: 'A full-stack MERN web application for ordering food online',
+      title: 'Modern Restaurant Website',
+      desc: 'A Fully Responsive Restaurant Website with Modern UI and UX in ReactJS',
       front: 'ReactJS',
-      back: 'Node.js/Express, MongoDB, Jest, React Testing Library',
       tech: '',
-      href: 'https://www.github.com/anubhavc9/Food-Order-App'
+      href: 'https://modern-restaurant-website.vercel.app/'
     },
     {
       cardNo: 'card-2',
