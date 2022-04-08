@@ -58,6 +58,8 @@
 }
 
 .card__apply {
+    display: flex;
+    justify-content: space-between;
     grid-row: 4/5;
     align-self: center;
 }

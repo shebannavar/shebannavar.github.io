@@ -9,14 +9,15 @@ export class ProjectsComponent implements OnInit {
   projects = [
     {
       cardNo: 'card-1',
-      title: 'Modern Restaurant Website',
+      title: 'Restaurant Website',
       desc: 'A Fully Responsive Restaurant Website with Modern UI and UX in ReactJS',
       front: 'ReactJS',
+      back: '',
       tech: '',
       href:'https://github.com/shebannavar/modern-restaurant-website',
       demohref: 'https://modern-restaurant-website.vercel.app/'
-    },
-    {
+    }/*,
+     {
       cardNo: 'card-2',
       title: 'My Messenger',
       desc: 'A real-time messaging web application using Socket.IO, a JavaScript library that enables real-time bi-directional communication between clients and servers',
@@ -60,7 +61,7 @@ export class ProjectsComponent implements OnInit {
       back: 'Node.js/Express & PostgreSQL',
       tech: '',
       href: 'https://github.com/anubhavc9/my-todo-list-backend'
-    },
+    }, */
   ];
 
   constructor() { }
